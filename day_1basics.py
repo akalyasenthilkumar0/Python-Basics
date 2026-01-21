@@ -38,5 +38,23 @@ b=temp
 print("After Swapping:"\n a=",a,"\n b=",b)
 print("--------------------------------")
 
-#4.
+#4.Simple Calculator
+
+a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+print("This is a simple calculator with basic operations. \nBasic Operations like,")
+print("\na. Add"
+"\nb.Subtraction"
+"\nc.Multiplication"
+"\nd.Division")
+print("sum=",a+b)
+print("difference=",a-b)
+print("product=",a*b)
+print("quotient=",a//b)
+print("Successfully executed!!")
+print("--------------------------------")
+
+
+
+
 
