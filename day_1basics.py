@@ -5,7 +5,7 @@
 #1.Print Statement 
 
 print("I'm Akalya,Just started my python journey!")
-print("------------------------------------")
+print("----------------------------------")
 
 
 #2.Take input and print its type
@@ -13,7 +13,7 @@ print("------------------------------------")
 value=input("Enter:")
 print("Value=",value)
 print("Type=",type(value))
-print("------------------------------------")
+print("----------------------------------")
 
 #3.Swap Two numbers(with and without temp)
 
@@ -36,7 +36,7 @@ temp=a
 a=b
 b=temp
 print("After Swapping:"\n a=",a,"\n b=",b)
-print("------------------------------------")
+print("----------------------------------")
 
 #4.
 
