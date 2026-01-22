@@ -54,6 +54,16 @@ print("quotient=",a//b)
 print("Successfully executed!!")
 print("--------------------------------")
 
+#5. Area of a Circle
+
+r=float(input("Enter value:"))
+area=3.14159*r*r
+print("Area of the circle is",area)
+print("-------------------------------")
+
+
+
+
 
 
 
