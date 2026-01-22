@@ -62,6 +62,17 @@ print("Area of the circle is",area)
 print("-------------------------------")
 
 
+#6. Temperature Conversions
+
+#------Celsius to Fahrenheit---------
+
+temp=float(input("Enter Temperature Value:"))
+res=(temp*9/5)+32
+print("Celsius to Fahrenheit=",res,"°F")
+
+
+
+
 
 
 
