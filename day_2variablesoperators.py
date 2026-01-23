@@ -46,3 +46,49 @@ if(year%4==0):
 else:
    print("It is not a leap year.")
 print("----------------------------")
+
+
+
+#5.Bitwise operators
+
+a = 5
+b = 3
+
+print("a & b =", a & b)
+print("a | b =", a | b)
+print("a ^ b =", a ^ b)
+print("------------------------------")
+
+
+#6.Logical and Bitwise Operator 
+
+x = int(input("Enter x:"))
+y = 3
+
+print("Logical and:", (x > 2) and (y > 1))
+print("Bitwise AND:", x & y)
+print("-------------------------------")
+
+
+#7.Operator Precedence example 
+
+print("Example of operator Precedence:")
+x=15*(6+7(9*(4-1))/5)/3
+print("Answer=",x)
+
+
+#8.Increment without using +
+
+n=int(input("Enter the number:"))
+n+=1
+print("After Increment with assignment operator:")
+
+#---------------------------------------
+
+n=int(input("Enter the number:"))
+n=n-(-1)
+print("After Increment with using +:",n)
+print("--------------------------------")
+
+
+
