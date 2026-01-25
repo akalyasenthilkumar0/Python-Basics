@@ -4,6 +4,8 @@ Learning Python from Scratch
 ## About This Repository
 This repository is created to document my journey of learning Python from scratch.
 It contains basic programs, concepts, and practice files added regularly as I learn.
+Created to strengthen my programming fundamentals and logical thinking.
+
 
 ## What I Am Learning
 - Python fundamentals
@@ -12,15 +14,17 @@ It contains basic programs, concepts, and practice files added regularly as I le
 - Loops
 - Functions
 - Basic problem solving
+- pattern programs
 
 ## Purpose
 The purpose of this repository is to build a strong foundation in Python and
-improve logical thinking through consistent practice.
+improve logical thinking through consistent hands-on practice.
 
 ## Learning Approach
 - Practicing daily
-- Writing clean and simple code
-- Learning step by step with understanding
+- Writing clean and readable code
+- Learning step by step with proper understanding
+- Solving beginner to intermediate problems
 
 ## Tools Used
 - Python
