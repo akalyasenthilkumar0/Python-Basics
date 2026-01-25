@@ -14,7 +14,7 @@ Created to strengthen my programming fundamentals and logical thinking.
 - Loops
 - Functions
 - Basic problem solving
-- pattern programs
+- Pattern programs
 
 ## Purpose
 The purpose of this repository is to build a strong foundation in Python and
