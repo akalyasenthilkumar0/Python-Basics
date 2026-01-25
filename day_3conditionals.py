@@ -84,3 +84,23 @@ else:
 
 print("--------------------------------")
 
+
+
+#6.Discount calculator 
+
+print("Discount Calculator")
+amt=int(input('Enter the total amount purchased:₹ '))
+if amt >=5000:
+    discount=(5000*(50/100))
+    final_amt= amt-discount
+    print("After discount of 50%: ₹ ",final_amt)
+elif amt>=2000:
+    discount=(2000*(20/100))
+    final_amt= amt-discount
+    print("After discount of 20%: ₹ ",final_amt)
+else:
+    print("No discounts for purchase less than ₹2000.")
+
+print("-------------------------------")
+
+
