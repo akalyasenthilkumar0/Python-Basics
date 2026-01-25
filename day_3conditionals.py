@@ -76,9 +76,9 @@ password=input("Password")
 
 if(user_name==username and pass==password):
   print(" Login Successful! ")
-elif(user_name!=username or pass==password):
+elif(user_name!=username):
   print("Invalid Username")
-elif(user_name==username or pass!=password):
+elif(pass!=password):
   print("Invalid Password")
 else:
   print("Invalid Username and Password")
