@@ -28,3 +28,6 @@ improve logical thinking through consistent practice.
 
 ## Status
 Learning in progress 
+
+## Mini Projects
+- Menu-driven calculator using conditional statements 
