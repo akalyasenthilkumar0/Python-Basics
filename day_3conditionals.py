@@ -48,3 +48,40 @@ else:
 
 print("-------------------------------")
 
+
+
+#4.Electricitybill
+
+units=int(input("Enter units:"))
+if units<=100:
+    print("Bill=₹0")
+elif(units>100 and units<=200):
+    print("Bill=₹",(units-100)*5)
+elif(units>200):
+    print("Bill=₹",((100*5)+(units-200)*10))
+else:
+    print("Invalid")
+print("------------------------------")
+
+
+#5.Simple login system
+
+user_name=input("Set username:")
+pass=input("Set password:")
+
+print("\nLogin")
+
+username=input("Username"))
+password=input("Password")
+
+if(user_name==username and pass==password):
+  print(" Login Successful! ")
+elif(user_name!=username or pass==password):
+  print("Invalid Username")
+elif(user_name==username or pass!=password):
+  print("Invalid Password")
+else:
+  print("Invalid Username and Password")
+
+print("--------------------------------")
+
