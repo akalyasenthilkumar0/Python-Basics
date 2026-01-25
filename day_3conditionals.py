@@ -23,4 +23,28 @@ else:
 print("----------------------------------")
 
 
-#2.
+#2.Vowel_Consonant
+
+c=str(input("Enter character:"))
+vowels='AEIOUaeiou'
+if(c in vowels):
+    print("The given character is a vowel.")
+else:
+    print("The given character is a consonant.")
+print("-----------------------------")
+
+
+#3.Triangle validity 
+
+print("The sides of a Triangle:")
+
+a=int(input("a="))
+b=int(input("b="))
+c=int(input("c="))
+if((a+b)>c and (b+c)>a and (a+c)>b):
+   print("The given sides form a valid    Triangle.")
+else:
+   print("It's not a valid Triangle")
+
+print("-------------------------------")
+
