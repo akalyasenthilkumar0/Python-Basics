@@ -57,7 +57,22 @@ print("Factorial of a given number %d is %d",%(n,fact))
 print("-----------------------------")
 
 
-#6.
+#6.Fibonacci Series
+
+terms=int(input("Enter number of terms:"))
+print("Fibonacci Series")
+a,b=0,1
+print(a,b,end=" ")
+for i in range(terms):
+   c=a+b
+   print(c,end=" ")
+   a=b
+   b=c
+
+print ("-------------------------------") 
+
+
+#7.
 
 
 
