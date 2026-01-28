@@ -72,10 +72,33 @@ for i in range(terms):
 print ("-------------------------------") 
 
 
-#7.
+#7.Armstrongnumber
+
+print("Armstrong number demo")
+num=int(input("Enter number:"))
+n=num
+digits=len(str(num))
+sum=0
+while n>0:
+   digit=n%10
+   sum=sum+digit**digits
+   n=n//10
+if(sum == num):
+    print("Yes It is an Armstrong number.")
+else:
+    print("Its not an Armstrong number.")
+print("------------------------------")
 
 
+#8.Primecheck
 
-
-
+n=int(input("Enter number:"))
+for i in range(2,n+1):
+     if(n%i==0):
+          print("It is not a prime number")
+          break
+else:
+     print("It is prime number")
+print("----------------------------")
+    
 
